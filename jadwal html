@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="admin.css">
+    <script src="https://kit.fontawesome.com/4beb5c99f8.js" crossorigin="anonymous"></script>   
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+  
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+    <a class="navbar-brand" href="#">SELAMAT DATANG ADMIN | <b>INSTITUT DIGITAL BISNIS INDONESIA</b></a>
+      <form class="form-inline my-2 my-lg-0 ml-auto">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
+      <div class="icon ml-4">
+        <h5>
+          <i class="fa-solid fa-envelope mr-3" data-toggle="tooltip" title="Surat Masuk"></i>
+          <i class="fa-solid fa-bell mr-3" data-toggle="tooltip" title="Notifikasi"></i>
+          <i class="fa-solid fa-right-from-bracket mr-3" data-toggle="tooltip" title="Sign Out"></i>
+        </h5>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row no-gutters mt-5">
+    <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
+      <ul class="nav flex-column ml-3 mb-5">
+        <li class="nav-item">
+          <a class="nav-link active text-white" href="dashboard.html"><i class="fa-solid fa-gauge-high mr-2"></i>Dashboard</a><hr class="bg-secondary">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="mahasiswa.html"><i class="fa-solid fa-graduation-cap mr-2"></i>Daftar Mahasiswa</a><hr class="bg-secondary">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="dosen.html"><i class="fa-solid fa-chalkboard-user mr-2"></i>Daftar Dosen</a><hr class="bg-secondary">
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-white" href="pegawai.html"><i class="fa-solid fa-user-pen mr-2"></i>Daftar Pegawai</a><hr class="bg-secondary">
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-white" href="jadwal.html"><i class="fa-solid fa-calendar-days mr-2"></i>Jadwal Kuliah</a><hr class="bg-secondary">
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-white" href="nilai.html"><i class="fa-solid fa-paper-plane mr-2"></i>Nilai Mahasiswa</a><hr class="bg-secondary">
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-10 p-5 pt-2">
+      <h3><i class="fa-solid fa-calendar-days mr-2"></i>Jadwal Kuliah</a></h3><hr>
+
+      <a href="" class="btn btn-primary mb-3"><i class="fa-solid fa-plus mr-2"></i>Tambah Data Jadwal Kuliah</a>
+      <table class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Mata Kuliah</th>
+            <th scope="col">Kode Mk</th>
+            <th scope="col">Dosen Mengajar</th>
+            <th scope="col">Jurusan</th>
+            <th colspan="3" scope="col">Aksi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Pemodelan Perangkat Lunak</td>
+            <td>F-6890</td>
+            <td>Yeni Nuraini</td>
+            <td>Teknologi Dan Informatika</td>
+            <td><a href="" class="btn btn-primary">Detail</a></td>
+            <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+            <td><i class="fa-solid fa-trash-can bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+          </tr>
+
+          <tr>
+            <th scope="row">2</th>
+            <td>Bahasa Inggris</td>
+            <td>J-5685</td>
+            <td>Isti Qomah</td>
+            <td>Semua Jurusan</td>
+            <td><a href="" class="btn btn-primary">Detail</a></td>
+            <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+            <td><i class="fa-solid fa-trash-can bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+          </tr>
+
+          <tr>
+            <th scope="row">3</th>
+            <td>Pemodelan Web Perangkat Bergerak</td>
+            <td>A-0026</td>
+            <td>Asep Cahya Nugraha</td>
+            <td>Teknologi Dan Informatika</td>
+            <td><a href="" class="btn btn-primary">Detail</a></td>
+            <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+            <td><i class="fa-solid fa-trash-can bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+          </tr>
+
+          <tr>
+            <th scope="row">4</th>
+            <td>Produk Kreatif Dan Kewirausahaan</td>
+            <td>L-9680</td>
+            <td>Dede Nita</td>
+            <td>Semua Jurusan</td>
+            <td><a href="" class="btn btn-primary">Detail</a></td>
+            <td><i class="fa-solid fa-pen-to-square bg-success p-2 text-white rounded" data-toggle="tooltip" title="Edit"></i></td>
+            <td><i class="fa-solid fa-trash-can bg-danger p-2 text-white rounded" data-toggle="tooltip" title="Delete"></i></td>
+          </tr>
+         
+        </tbody>
+      </table>
+     </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="admin.js"></script>
+  </body>
+</html>
